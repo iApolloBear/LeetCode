@@ -2,6 +2,9 @@
  * Given an integer x, return true if x is a palindrome, and false otherwise.
  */
 
+// Time complexity: O(log10 n)
+// Space complexity: O(1)
+
 public class PalindromeNumber {
   public static void main(String[] args) {
     System.out.println(isPalindrome(121)); // true
